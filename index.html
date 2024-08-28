@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Vue hello world</title>
 </head>
 <body>
+
+    <div id="app">
+        <h1>{{ message }}</h1>
+        <img :src="imgUrl" v-bind:class="imageClass">
+    </div>
+
+    <!-- Inclusione di Vue.js -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- Inclusione del file JavaScript -->
     <script src="js/scripts.js"></script>
 </body>
 </html>

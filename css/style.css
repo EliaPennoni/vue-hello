@@ -5,3 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Classe per ridimensionare l'immagine */
+.medium-img {
+    width: 800px; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+  }
+  
