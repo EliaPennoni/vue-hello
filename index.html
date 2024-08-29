@@ -9,8 +9,10 @@
 <body>
 
     <div id="app">
-        <h1>{{ message }}</h1>
-        <img :src="imgUrl" v-bind:class="imageClass">
+        <h1>
+            {{message}}
+        </h1>
+        <img :src="imgUrl" :alt="message">
     </div>
 
     <!-- Inclusione di Vue.js -->
